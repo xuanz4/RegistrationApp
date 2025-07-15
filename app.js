@@ -14,11 +14,11 @@ const db = mysql.createConnection({
     // user: 'root',
     // password: '',
     // database: 'C237_usersdb'
-    host: 'host shown on database info',
+    host: 'avau5j.h.filess.io',
     port: 3307,
-    user: 'database user shown on database info',
-    password: 'database password shown on database info',
-    database: 'database shown on database info'
+    user: 'C237database_zulushutit',
+    password: '8b21dd68ffc320e04704c42756bcb09ecd882b9f',
+    database: 'C237database_zulushutit'
 });
 
 db.connect((err) => {
@@ -165,5 +165,5 @@ app.get('/logout', (req, res) => {
 
 // Starting the server
 app.listen(3000, () => {
-    console.log('Server started on port 3000');
+    console.log('Server started on port http://localhost:3000');
 });
